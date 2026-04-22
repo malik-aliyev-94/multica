@@ -18,7 +18,6 @@ dist-electron
 !apps/desktop/build/**
 
 # env
-.env*
 !.env.example
 # Desktop production config is public (backend URL, etc.) — track it so
 # `pnpm package` produces a release-ready build without extra setup.
@@ -57,3 +56,4 @@ _features/
 server/server
 data/
 .kilo
+config.bat
